@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Modifier = require('famous/core/Modifier');
+]]></content>
+	<tabTrigger>famdmodifier</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Modifier</description>
+</snippet>

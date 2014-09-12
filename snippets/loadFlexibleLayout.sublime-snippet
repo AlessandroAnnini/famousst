@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var FlexibleLayout = require('famous/views/FlexibleLayout');
+]]></content>
+	<tabTrigger>famdflexlay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load FlexibleLayout</description>
+</snippet>

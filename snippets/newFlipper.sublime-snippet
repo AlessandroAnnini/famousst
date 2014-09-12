@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name} = new Flipper();
+${1:name}.setFront(new Surface());
+${1:name}.setBack(new Surface());
+// mainContext.add(${1:name});
+]]></content>
+	<tabTrigger>famnflipper</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Flipper</description>
+</snippet>

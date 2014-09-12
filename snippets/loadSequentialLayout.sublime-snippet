@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var SequentialLayout = require('famous/views/SequentialLayout');
+]]></content>
+	<tabTrigger>famdseqlay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load SequentialLayout</description>
+</snippet>

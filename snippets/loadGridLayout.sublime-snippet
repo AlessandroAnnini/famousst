@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var GridLayout = require('famous/views/GridLayout');
+]]></content>
+	<tabTrigger>famdgridlay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load GridLayout</description>
+</snippet>

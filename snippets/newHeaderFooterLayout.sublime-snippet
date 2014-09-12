@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name} = new HeaderFooterLayout({
+    headerSize: $2,
+    footerSize: $3
+});
+
+${1:name}.header.add();
+${1:name}.content.add();
+${1:name}.footer.add();
+
+//mainContext.add(${1:name});
+]]></content>
+	<tabTrigger>famnhflay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new HeaderFooterLayout</description>
+</snippet>

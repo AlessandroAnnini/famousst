@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var InputSurface = require('famous/surfaces/InputSurface');
+]]></content>
+	<tabTrigger>famdinputsurface</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load InputSurface</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var TouchSync = require('famous/inputs/TouchSync');
+]]></content>
+	<tabTrigger>famdtouchsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load TouchSync</description>
+</snippet>

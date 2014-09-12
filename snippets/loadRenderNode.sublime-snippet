@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var RenderNode = require('famous/core/RenderNode');
+]]></content>
+	<tabTrigger>famdrendernode</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load RenderNode</description>
+</snippet>

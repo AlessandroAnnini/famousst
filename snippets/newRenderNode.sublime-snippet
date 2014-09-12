@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/* NEEDS EDITING */
+// var surf = new Surface();
+// var mod = new StateModifier();
+
+var ${1:name} = new RenderNode(mod);
+${1:name}.add(surf);
+
+// ${1:name}.add(mod).add(surf);
+// mainContext.add(${1:name});
+]]></content>
+	<tabTrigger>famnrendernode</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new RenderNode</description>
+</snippet>

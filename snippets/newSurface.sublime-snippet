@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name} = new Surface({
+    size: [undefined, undefined],
+    content: '',
+    classes: [],
+    properties: {
+        color: 'white',
+        textAlign: 'center',
+        backgroundColor: '#FA5C4F'
+    }
+});
+]]></content>
+	<tabTrigger>famnsurface</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Surface</description>
+</snippet>

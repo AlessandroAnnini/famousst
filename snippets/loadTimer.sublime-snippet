@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Timer = require('famous/utilities/Timer');
+]]></content>
+	<tabTrigger>famdtimer</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Timer</description>
+</snippet>

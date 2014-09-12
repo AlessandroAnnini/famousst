@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Timer.setInterval(function() {
+
+}, ${1:1000});
+]]></content>
+	<tabTrigger>famtinterval</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us Timer setInterval</description>
+</snippet>

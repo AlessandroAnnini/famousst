@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Surface = require('famous/core/Surface');
+]]></content>
+	<tabTrigger>famdsurface</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Surface</description>
+</snippet>

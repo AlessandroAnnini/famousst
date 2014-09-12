@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Scene = require('famous/core/Scene');
+]]></content>
+	<tabTrigger>famdscene</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Scene</description>
+</snippet>

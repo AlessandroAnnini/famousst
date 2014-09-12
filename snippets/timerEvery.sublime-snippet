@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Timer.every(function() {
+
+}, ${1:1000});
+]]></content>
+	<tabTrigger>famtevery</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us Timer every</description>
+</snippet>

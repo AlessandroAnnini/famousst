@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Timer.setTimeout(function() {
+
+}, ${1:1000});
+]]></content>
+	<tabTrigger>famttimeout</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us Timer setTimeout</description>
+</snippet>

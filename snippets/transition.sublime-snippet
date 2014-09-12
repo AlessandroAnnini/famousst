@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{ duration : $1, curve: Easing.linear }
+]]></content>
+	<tabTrigger>famtransition</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us Transition</description>
+</snippet>

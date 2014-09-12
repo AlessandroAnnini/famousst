@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+/* !ONLY FOR EXAMPLE PURPOSE! */
+var GenericSync     = require('famous/inputs/GenericSync');
+var MouseSync       = require('famous/inputs/MouseSync');
+var TouchSync       = require('famous/inputs/TouchSync');
+GenericSync.register({'mouse': MouseSync, 'touch': TouchSync});
+
+var options = {
+    openPosition: -276,
+    transition: {
+        duration: 300,
+        curve: 'easeOut'
+    },
+    posThreshold: 138,
+    velThreshold: 0.50
+};
+
+var currentPos = new Transitionable([0, 0]);
+
+var sync = new GenericSync(['mouse', 'touch'], {
+    direction: GenericSync.DIRECTION_X
+});
+surf.pipe(sync);
+
+function _handleSwipe() {
+    sync.on('update', function (data) {
+        var currentPosition = contentPos.get();
+        contentPos.set(currentPosition + data.delta);
+    }.bind(this));
+
+    sync.on('end', (function (data) {
+        var velocity = data.velocity;
+        var position = contentPos.get();
+
+        if(contentPos.get() > this.options.posThreshold) {
+            if(velocity < -this.options.velThreshold) {
+                this.slideLeft();
+            } else {
+                this.slideRight();
+            }
+        } else {
+            if(velocity > this.options.velThreshold) {
+                this.slideRight();
+            } else {
+                this.slideLeft();
+            }
+        }
+    }).bind(this));
+}
+
+AppView.prototype.slideLeft = function() {
+    this.pageViewPos.set(0, this.options.transition, function() {
+
+    }.bind(this));
+};
+
+AppView.prototype.slideRight = function() {
+    this.pageViewPos.set(this.options.openPosition, this.options.transition, function() {
+
+    }.bind(this));
+};
+]]></content>
+	<tabTrigger>fameswipe</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us example Swipe</description>
+</snippet>

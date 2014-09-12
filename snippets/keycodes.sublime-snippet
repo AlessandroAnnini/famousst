@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Engine.on('keypress', function(event) {
+	if (event.charCode >= KeyCodes['0'] && event.charCode <= KeyCodes['9']) {
+		console.log('you hit a number');
+	} else {
+		console.log('not a number');
+	}
+});
+]]></content>
+	<tabTrigger>famkeycodes</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us Keycodes</description>
+</snippet>

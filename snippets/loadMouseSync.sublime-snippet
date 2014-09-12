@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var MouseSync = require('famous/inputs/MouseSync');
+]]></content>
+	<tabTrigger>famdmousesync</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load MouseSync</description>
+</snippet>

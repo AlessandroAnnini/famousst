@@ -1,0 +1,331 @@
+{
+    "scope": "source.js",
+
+    "completions":
+    [
+    	// ========== snips ==========
+	    
+	    { "trigger": "context", "contents": "Context" },
+		{ "trigger": "engine", "contents": "Engine" },
+		{ "trigger": "eventemitter", "contents": "EventEmitter" },
+		{ "trigger": "eventhandler", "contents": "EventHandler" },
+		{ "trigger": "optionsmanager", "contents": "OptionsManager" },
+		{ "trigger": "modifier", "contents": "Modifier" },
+		{ "trigger": "rendernode", "contents": "RenderNode" },
+		{ "trigger": "scene", "contents": "Scene" },
+		{ "trigger": "surface", "contents": "Surface" },
+		{ "trigger": "transform", "contents": "Transform" },
+		{ "trigger": "view", "contents": "View" },
+		{ "trigger": "viewsequence", "contents": "ViewSequence" },
+
+		{ "trigger": "eventarbiter", "contents": "EventArbitrer" },
+		{ "trigger": "eventfilter", "contents": "EventFilter },
+		{ "trigger": "eventmapper", "contents": "EventMapper" },
+
+		{ "trigger": "fastclick", "contents": "FastClick" },
+		{ "trigger": "genericsync", "contents": "GenericSync" },
+		{ "trigger": "mousesync", "contents": "MouseSync" },
+		{ "trigger": "pinchsync", "contents": "PinchSync" },
+		{ "trigger": "rotatesync", "contents": "RotateSync" },
+		{ "trigger": "scalesync", "contents": "ScaleSync" },
+		{ "trigger": "scrollsync", "contents": "ScrollSync" },
+		{ "trigger": "touchsync", "contents": "TouchSync" },
+		{ "trigger": "touchtracker", "contents": "TouchTracker" },
+		{ "trigger": "twofingersync", "contents": "TwoFingerSync" },
+
+		{ "trigger": "matrix", "contents": "Matrix" },
+		{ "trigger": "random", "contents": "Random" },
+		{ "trigger": "quaternion", "contents": "Quaterion" },
+		{ "trigger": "vector", "contents": "Vector" },
+
+		{ "trigger": "draggable", "contents": "Draggable" },
+		{ "trigger": "lift", "contents": "Lift" },
+		{ "trigger": "modifierchain", "contents": "ModifierChain" },
+		{ "trigger": "statemodifier", "contents": "StateModifier" },
+		{ "trigger": "canvassurface", "contents": "CanvasSurface" },
+		{ "trigger": "containersurface", "contents": "ContainerSurface" },
+		{ "trigger": "imagesurface", "contents": "ImageSurface" },
+		{ "trigger": "inputsurface", "contents": "InputSurface" },
+		{ "trigger": "submitinputsurface", "contents": "SubmitInputSurface" },
+		{ "trigger": "textareasurface", "contents": "TextAreaSurface" },
+		{ "trigger": "videosurface", "contents": "VideoSurface" },
+
+		{ "trigger": "cachedmap", "contents": "CachedMap" },
+		{ "trigger": "easing", "contents": "Easing" },
+		{ "trigger": "multipletransition", "contents": "MultipleTransition" },
+		{ "trigger": "snaptransition", "contents": "SpringTransition" },
+		{ "trigger": "springtransition", "contents": "SpringTransition" },
+		{ "trigger": "transitionable", "contents": "Transitionable" },
+		{ "trigger": "transitionabletransform", "contents": "TransitionableTransform" },
+		{ "trigger": "tweentransition", "contents": "TweenTransition" },
+		{ "trigger": "walltransition", "contents": "WallTransition" },
+
+		{ "trigger": "keycodes", "contents": "KeyCodes" },
+		{ "trigger": "timer", "contents": "Timer" },
+		{ "trigger": "utility", "contents": "Utility" },
+
+		{ "trigger": "deck", "contents": "Deck" },
+		{ "trigger": "edgeswapper", "contents": "EdgeSwapper" },
+		{ "trigger": "flipper", "contents": "Flipper" },
+		{ "trigger": "gridlayout", "contents": "GridLayout" },
+		{ "trigger": "headerfooterlayout", "contents": "HeaderFooterLayout" },
+		{ "trigger": "lightbox", "contents": "Lightbox" },
+		{ "trigger": "rendercontroller", "contents": "RenderController" },
+		{ "trigger": "scrollcontainer", "contents": "ScrollContainer" },
+		{ "trigger": "scroller", "contents": "Scroller" },
+		{ "trigger": "scrollview", "contents": "ScrollView" },
+		{ "trigger": "sequentiallayout", "contents": "SequentialLayout" },
+
+		{ "trigger": "navigationbar", "contents": "NavigationBar" },
+		{ "trigger": "tabbar", "contents": "TabBar" },
+		{ "trigger": "togglebutton", "contents": "ToggleButton" },
+
+		{ "trigger": "click", "contents": "animation" },
+		{ "trigger": "mousedown", "contents": "animation" },
+		{ "trigger": "mousemove", "contents": "animation" },
+		{ "trigger": "mouseup", "contents": "animation" },
+		{ "trigger": "mouseover", "contents": "animation" },
+		{ "trigger": "mouseout", "contents": "animation" },
+		{ "trigger": "touchstart", "contents": "animation" },
+		{ "trigger": "touchmove", "contents": "animation" },
+		{ "trigger": "touchend", "contents": "animation" },
+		{ "trigger": "touchcancel", "contents": "animation" },
+		{ "trigger": "keydown", "contents": "animation" },
+		{ "trigger": "keyup", "contents": "animation" },
+		{ "trigger": "keypress", "contents": "animation" },
+
+		{ "trigger": "inquad", "contents": "inQuad" },
+		{ "trigger": "outquad", "contents": "outQuad" },
+		{ "trigger": "inoutquad", "contents": "inOutQuad" },
+		{ "trigger": "incubic", "contents": "inCubic" },
+		{ "trigger": "outcubic", "contents": "outCubit" },
+		{ "trigger": "inoutcubic", "contents": "inOutCubic" },
+		{ "trigger": "inquart", "contents": "inQuart" },
+		{ "trigger": "outquart", "contents": "outQuart" },
+		{ "trigger": "inoutquart", "contents": "inOutQuart" },
+		{ "trigger": "inquint", "contents": "inQuint" },
+		{ "trigger": "outquint", "contents": "outQuint" },
+		{ "trigger": "inoutquint", "contents": "inOutQuint" },
+		{ "trigger": "insine", "contents": "inSine" },
+		{ "trigger": "outsine", "contents": "outSine" },
+		{ "trigger": "inoutsine", "contents": "inOutSine" },
+		{ "trigger": "inexpo", "contents": "inExpo" },
+		{ "trigger": "outexpo", "contents": "outExpo" },
+		{ "trigger": "inoutexpo", "contents": "inOutExpo" },
+		{ "trigger": "incirc", "contents": "inCirc" },
+		{ "trigger": "outcirc", "contents": "outCirc" },
+		{ "trigger": "inoutcirc", "contents": "inOutCirc" },
+		{ "trigger": "inelastic", "contents": "inElastic" },
+		{ "trigger": "outelastic", "contents": "outElastic" },
+		{ "trigger": "inoutelastic", "contents": "inOutElastic" },
+		{ "trigger": "inback", "contents": "inBack" },
+		{ "trigger": "outback", "contents": "outBack" },
+		{ "trigger": "inoutback", "contents": "inOutBack" },
+		{ "trigger": "inbounce", "contents": "inBounce" },
+		{ "trigger": "outbounce", "contents": "outBounce" },
+		{ "trigger": "inoutbounce", "contents": "inOutBounce" },
+
+		{ "trigger": "famdengine", "contents": "animation" },
+		{ "trigger": "famdview", "contents": "animation" },
+		{ "trigger": "famdsurface", "contents": "animation" },
+		{ "trigger": "famdimagesurface", "contents": "animation" },
+		{ "trigger": "famdinputsurface", "contents": "animation" },
+		{ "trigger": "famdstatemodifier", "contents": "animation" },
+		{ "trigger": "famdmodifier", "contents": "animation" },
+		{ "trigger": "famdscene", "contents": "animation" },
+		{ "trigger": "famdrendernode", "contents": "animation" },
+		{ "trigger": "famdtransform", "contents": "animation" },
+		{ "trigger": "famdtransitionable", "contents": "animation" },
+		{ "trigger": "famdhflay", "contents": "animation" },
+		{ "trigger": "famdgridlay", "contents": "animation" },
+		{ "trigger": "famdflexlay", "contents": "animation" },
+		{ "trigger": "famdseqlay", "contents": "animation" },
+		{ "trigger": "famdflipper", "contents": "animation" },
+		{ "trigger": "famddeck", "contents": "animation" },
+        { "trigger": "famdtimer", "contents": "animation" },
+		{ "trigger": "famdgenericsync", "contents": "animation" },
+		{ "trigger": "famdmousesync", "contents": "animation" },
+		{ "trigger": "famdtouchsync", "contents": "animation" },
+		{ "trigger": "famdscrollsync", "contents": "animation" },
+		{ "trigger": "famgenericsync", "contents": "animation" },
+		{ "trigger": "famnsurface", "contents": "animation" },
+        { "trigger": "famnview", "contents": "animation" },
+		{ "trigger": "famnimagesurface", "contents": "animation" },
+		{ "trigger": "famninputsurface", "contents": "animation" },
+		{ "trigger": "famnstatemodifier", "contents": "animation" },
+		{ "trigger": "famnhflay", "contents": "animation" },
+		{ "trigger": "famngridlay", "contents": "animation" },
+		{ "trigger": "famnflexlay", "contents": "animation" },
+		{ "trigger": "famnseqlay", "contents": "animation" },
+		{ "trigger": "famndeck", "contents": "animation" },
+		{ "trigger": "famnflipper", "contents": "animation" },
+		{ "trigger": "famnrendernode", "contents": "animation" },
+		{ "trigger": "famtinterval", "contents": "animation" },
+		{ "trigger": "famttimeout", "contents": "animation" },
+		{ "trigger": "famtevery", "contents": "animation" },
+		{ "trigger": "famtafter", "contents": "animation" },
+		{ "trigger": "famkeycodes", "contents": "animation" },
+		{ "trigger": "famtransition", "contents": "animation" },
+		{ "trigger": "fameswipe", "contents": "animation" },
+		{ "trigger": "famboilerplate", "contents": "animation" }
+
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

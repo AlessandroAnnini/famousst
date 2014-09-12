@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var StateModifier = require('famous/modifiers/StateModifier');
+]]></content>
+	<tabTrigger>famdstatemodifier</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load StateModifier</description>
+</snippet>

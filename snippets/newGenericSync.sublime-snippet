@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+GenericSync.register({
+    'mouse': MouseSync,
+    'touch': TouchSync,
+    'scroll': ScrollSync
+});
+]]></content>
+	<tabTrigger>famgenericsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new GenericSync</description>
+</snippet>

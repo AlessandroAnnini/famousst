@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Transitionable = require('famous/transitions/Transitionable');
+]]></content>
+	<tabTrigger>famdtransitionable</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Transitionable</description>
+</snippet>

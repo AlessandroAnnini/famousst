@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/* NEEDS EDITING */
+var ${1:name} = new SequentialLayout({
+    direction: 0
+});
+var surfaces = [];
+${1:name}.sequenceFrom(surfaces);
+// surfaces.push(new Surface());
+// mainContext.add(${1:name});
+]]></content>
+	<tabTrigger>famnseqlay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new SequentialLayout</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var HeaderFooterLayout = require('famous/views/HeaderFooterLayout');
+]]></content>
+	<tabTrigger>famdhflay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load HeaderFooterLayout</description>
+</snippet>

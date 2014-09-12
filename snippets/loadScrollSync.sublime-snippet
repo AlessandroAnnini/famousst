@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var ScrollSync = require('famous/inputs/ScrollSync');
+]]></content>
+	<tabTrigger>famdscrollsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load ScrollSync</description>
+</snippet>

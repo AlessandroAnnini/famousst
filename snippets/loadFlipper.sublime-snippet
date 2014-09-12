@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Flipper = require('famous/views/Flipper');
+]]></content>
+	<tabTrigger>famdflipper</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Flipper</description>
+</snippet>

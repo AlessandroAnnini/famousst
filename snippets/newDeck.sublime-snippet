@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/* NEEDS EDITING */
+var ${1:name} = new Deck({
+	itemSpacing: 10,
+	transition: {
+		method: 'spring',
+		period: 300,
+		dampingRatio: 0.5
+	},
+	stackRotation: 0.02
+});
+var surfaces = [];
+${1:name}.sequenceFrom(surfaces);
+// surfaces.push(new Surface());
+// mainContext.add(${1:name});
+]]></content>
+	<tabTrigger>famndeck</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Deck</description>
+</snippet>

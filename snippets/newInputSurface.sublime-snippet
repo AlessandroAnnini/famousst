@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name} = new InputSurface({
+    size: [200, 100],
+    placeholder: '',
+    type: 'text' // or 'button'
+});
+]]></content>
+	<tabTrigger>famninputsurface</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new InputSurface</description>
+</snippet>

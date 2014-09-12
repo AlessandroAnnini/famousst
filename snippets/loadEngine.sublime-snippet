@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Engine = require('famous/core/Engine');
+]]></content>
+	<tabTrigger>famdengine</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Engine</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Deck = require('famous/views/Deck');
+]]></content>
+	<tabTrigger>famddeck</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Deck</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/* NEEDS EDITING */
+var ${1:name} = new GridLayout({
+  dimensions: [${1:width}, ${1:height}]
+});
+
+var surfaces = [];
+// surfaces.push(new Surface());
+${1:name}.sequenceFrom(surfaces);
+
+//mainContext.add(${1:name});
+]]></content>
+	<tabTrigger>famngridlay</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new GridLayout</description>
+</snippet>

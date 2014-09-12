@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name} = new ImageSurface({
+    size: [true, true],
+    content: '/*url*/'
+});
+]]></content>
+	<tabTrigger>famnimagesurface</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new ImageSurface</description>
+</snippet>

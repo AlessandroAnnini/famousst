@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var GenericSync = require('famous/inputs/GenericSync');
+]]></content>
+	<tabTrigger>famdgenericsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load GenericSync</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var View = require('famous/core/View');
+]]></content>
+	<tabTrigger>famdview</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load View</description>
+</snippet>

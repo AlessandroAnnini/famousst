@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Timer.after(function() {
+
+}, ${1:1000});
+]]></content>
+	<tabTrigger>famtafter</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us Timer after</description>
+</snippet>
