@@ -123,9 +123,9 @@
 		{ "trigger": "inoutback", "contents": "inOutBack" },
 		{ "trigger": "inbounce", "contents": "inBounce" },
 		{ "trigger": "outbounce", "contents": "outBounce" },
-		{ "trigger": "inoutbounce", "contents": "inOutBounce" },
+		{ "trigger": "inoutbounce", "contents": "inOutBounce" }
 
-		{ "trigger": "famdengine", "contents": "animation" },
+		/*{ "trigger": "famdengine", "contents": "animation" },
 		{ "trigger": "famdview", "contents": "animation" },
 		{ "trigger": "famdsurface", "contents": "animation" },
 		{ "trigger": "famdimagesurface", "contents": "animation" },
@@ -167,7 +167,7 @@
 		{ "trigger": "famkeycodes", "contents": "animation" },
 		{ "trigger": "famtransition", "contents": "animation" },
 		{ "trigger": "fameswipe", "contents": "animation" },
-		{ "trigger": "famboilerplate", "contents": "animation" }
+		{ "trigger": "famboilerplate", "contents": "animation" }*/
 
     ]
 }
