@@ -7,7 +7,7 @@
 
 ## Installation
 
-- Package Control: install the package "AngularJS Snippets"
+- Package Control: install the package "Famous"
 - Manual: copy files to your Sublime Text User folder
 
 ## IMPORTANT
