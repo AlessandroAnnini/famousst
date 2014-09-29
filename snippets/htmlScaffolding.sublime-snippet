@@ -1,10 +1,6 @@
-{
-    "scope": "text.html meta.tag",
-
-    "completions":
-    [
-    	// directive
-	    { "trigger": "famsca", "contents": "<!DOCTYPE HTML>
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
 <html>
     <head>
         <title>famo.us App</title>
@@ -34,27 +30,9 @@
 
     </head>
     <body></body>
-</html>"},
-	    { "trigger": "fambox", "contents": "<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>famo.us App</title>
-        <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-        <!-- http://famousco.de/ all-in-one famous lib -->
-        <script type="text/javascript" src="http://famousco.de/fiddle/famousBox.js"></script>
-
-        <!-- your css -->
-        <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
-
-        <!-- your app -->
-        <!-- <script type="text/javascript" src="main.js"></script> -->
-
-    </head>
-    <body></body>
-</html>"}
-    ]
-}
+</html>
+]]></content>
+	<tabTrigger>famsca</tabTrigger>
+	<scope>text.html</scope>
+	<description>Famo.us HTML Scaffolding</description>
+</snippet>

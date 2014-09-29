@@ -1,4 +1,16 @@
 ### update (HEAD, master)
+>Mon, 29 Sep 2014 15:07:20 +0200
+
+>Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+>Commiter: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+- fixed html snippets
+- completition test
+
+
+
+### update (origin/master)
 >Fri, 26 Sep 2014 14:37:53 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
@@ -9,7 +21,7 @@ changed read me
 
 
 
-### renamed file (origin/master)
+### renamed file
 >Fri, 26 Sep 2014 14:26:11 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)

@@ -5,7 +5,8 @@
     [
     	// ========== snips ==========
 	    
-	    { "trigger": "context", "contents": "Context" },
+	    "Context",
+	    /*{ "trigger": "context", "contents": "Context" },*/
 		{ "trigger": "engine", "contents": "Engine" },
 		{ "trigger": "eventemitter", "contents": "EventEmitter" },
 		{ "trigger": "eventhandler", "contents": "EventHandler" },
@@ -15,7 +16,7 @@
 		{ "trigger": "scene", "contents": "Scene" },
 		{ "trigger": "surface", "contents": "Surface" },
 		{ "trigger": "transform", "contents": "Transform" },
-		{ "trigger": "view", "contents": "View" },
+		/*{ "trigger": "view", "contents": "View" },*/
 		{ "trigger": "viewsequence", "contents": "ViewSequence" },
 
 		{ "trigger": "eventarbiter", "contents": "EventArbitrer" },
