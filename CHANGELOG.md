@@ -1,4 +1,15 @@
-### update (HEAD, master)
+### Bugfix (HEAD, master)
+>Mon, 29 Sep 2014 15:12:31 +0200
+
+>Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+>Commiter: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+- fixed autocomplete file
+
+
+
+### update (origin/master)
 >Mon, 29 Sep 2014 15:07:20 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
@@ -10,7 +21,7 @@
 
 
 
-### update (origin/master)
+### update
 >Fri, 26 Sep 2014 14:37:53 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
