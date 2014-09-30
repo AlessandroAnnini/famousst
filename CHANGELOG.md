@@ -1,4 +1,15 @@
-### Bugfix (HEAD, master)
+### Update (HEAD, master)
+>Tue, 30 Sep 2014 17:11:23 +0200
+
+>Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+>Commiter: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+updated autocomplete triggers - now working
+
+
+
+### Bugfix (origin/master)
 >Mon, 29 Sep 2014 15:12:31 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
@@ -9,7 +20,7 @@
 
 
 
-### update (origin/master)
+### update
 >Mon, 29 Sep 2014 15:07:20 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)

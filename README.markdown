@@ -14,7 +14,12 @@
 
 Completions won’t show in HTML unless you have added this line to your User.sublime-preferences:
 
-	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"}, {"selector": "text.html meta.tag", "characters": " " } ]
+	"auto_complete_triggers": [
+        {
+            "characters": "fam",
+            "selector": "text.html"
+        }
+    ]
 
 
 Adds syntax highlighting and snippets to Famo.us for Sublime Text.
