@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Utility = require('famous/utilities/Utility');
+]]></content>
+	<tabTrigger>famodutility</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Utility</description>
+</snippet>

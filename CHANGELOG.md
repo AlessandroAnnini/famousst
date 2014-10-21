@@ -1,4 +1,30 @@
-### Update (HEAD, master)
+### Update for famo.us 0.3 [part one] (HEAD, master)
+>Tue, 21 Oct 2014 22:00:00 +0200
+
+>Author: Alessandro (sunrising@Alessandros-MBP.fritz.box)
+
+>Commiter: Alessandro (sunrising@Alessandros-MBP.fritz.box)
+
+NEW FEATURES
+- Modifier proportion (famo.us 0.3)
+- Utility.clone (famo.us 0.3)
+- Utility.after
+- Utility.loadURL
+- Utility.createDocumentFragmentFromHTML
+- RenderController
+- Fader
+- Scrollview
+- EdgeSwapper
+
+CHANGES
+- Layout snippets are now changed and much more complete
+
+FIX
+- Modifier (famnmodifier)
+
+
+
+### Update (origin/master)
 >Tue, 30 Sep 2014 17:11:23 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
@@ -9,7 +35,7 @@ updated autocomplete triggers - now working
 
 
 
-### Bugfix (origin/master)
+### Bugfix
 >Mon, 29 Sep 2014 15:12:31 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)

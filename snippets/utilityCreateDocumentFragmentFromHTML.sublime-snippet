@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  CreateDocumentFragmentFromHTML
+ *  Create a document fragment from a string of HTML
+ */
+
+// input a HTML string
+var documentFragment = Utility.createDocumentFragmentFromHTML(${1:yourHTML});
+]]></content>
+	<tabTrigger>famufragfromhtml</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Utility docFragFromHTML</description>
+</snippet>

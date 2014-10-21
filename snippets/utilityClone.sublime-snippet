@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  Clone
+ *  Utility.createDocumentFragmentFromHTML
+ */
+
+// input an object
+var clonedObject = Utility.clone(${1:object});
+]]></content>
+	<tabTrigger>famuclone</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Utility clone</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Fader = require('famous/modifiers/Fader');
+]]></content>
+	<tabTrigger>famdfader</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Fader</description>
+</snippet>

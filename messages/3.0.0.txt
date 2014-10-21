@@ -1,0 +1,23 @@
+famous v3.0.0 changelog:
+
+Update for famo.us 0.3 [part one]
+
+NEW FEATURES
+- Modifier proportion (famo.us 0.3)
+- Utility.clone (famo.us 0.3)
+- Utility.after
+- Utility.loadURL
+- Utility.createDocumentFragmentFromHTML
+- RenderController
+- Fader
+- Scrollview
+- EdgeSwapper
+
+CHANGES
+- Layout snippets are now changed and much more complete
+
+FIX
+- Modifier (famnmodifier)
+
+
+by http://famousco.de/ - it.linkedin.com/in/alessandroannini/

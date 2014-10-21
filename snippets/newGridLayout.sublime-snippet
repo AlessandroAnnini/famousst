@@ -1,15 +1,31 @@
 <snippet>
 	<content><![CDATA[
-/* NEEDS EDITING */
+/**
+ *  Grid Layout
+ */
 var ${1:name} = new GridLayout({
-  dimensions: [${1:width}, ${1:height}]
+  dimensions: [${2:width}, ${1:height}]
 });
 
 var surfaces = [];
-// surfaces.push(new Surface());
+
 ${1:name}.sequenceFrom(surfaces);
 
-//mainContext.add(${1:name});
+for(var i = 0; i < 8; i++) {
+    var surf = new Surface({
+        content: "panel " + (i + 1),
+        size: [undefined, undefined],
+        properties: {
+            backgroundColor: "hsl(" + (i * 360 / 8) + ", 100%, 50%)",
+            color: "#404040",
+            lineHeight: '200px',
+            textAlign: 'center'
+        }
+    });
+    surfaces.push(surf)
+}
+
+this.add(${1:name});
 ]]></content>
 	<tabTrigger>famngridlay</tabTrigger>
 	<scope>source.js</scope>

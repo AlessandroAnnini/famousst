@@ -1,19 +1,42 @@
 <snippet>
 	<content><![CDATA[
-/* NEEDS EDITING */
-var ${1:name} = new Deck({
-	itemSpacing: 10,
-	transition: {
-		method: 'spring',
-		period: 300,
-		dampingRatio: 0.5
-	},
-	stackRotation: 0.02
-});
+/**
+ * Deck
+ */
+var elements = ['1', '2', '3', '4'];
+
 var surfaces = [];
+
+var ${1:name} = new Deck({
+    itemSpacing: 10,
+    transition: {
+        method: 'spring',
+        period: 300,
+        dampingRatio: 0.5
+    },
+    stackRotation: 0.02,
+    direction: 0
+});
+
 ${1:name}.sequenceFrom(surfaces);
-// surfaces.push(new Surface());
-// mainContext.add(${1:name});
+
+for(var i = 0; i < elements.length; i++) {
+    var surf = new Surface({
+        size: [100, 200],
+        classes: ['test'],
+        properties: {
+            backgroundColor: 'hsla(' + ((i*elements.length + i)*15 % 360) + ', 60%, 50%, 0.8)'
+        },
+        content: elements[i]
+    });
+
+    surf.on('click', function() {
+        ${1:name}.toggle();
+    });
+    surfaces.push(surf);
+}
+
+this.add(${1:name});
 ]]></content>
 	<tabTrigger>famndeck</tabTrigger>
 	<scope>source.js</scope>

@@ -1,14 +1,15 @@
 <snippet>
 	<content><![CDATA[
-/* NEEDS EDITING */
-// var surf = new Surface();
-// var mod = new StateModifier();
+/**
+ *  Create the render node and add elements
+ */
+this.renderNode = new RenderNode();
+this.renderNode.add(new StateModifier()).add(new Surface());
 
-var ${1:name} = new RenderNode(mod);
-${1:name}.add(surf);
-
-// ${1:name}.add(mod).add(surf);
-// mainContext.add(${1:name});
+/**
+ *  Add my node to the render tree
+ */
+this.add(this.nodeRoot);
 ]]></content>
 	<tabTrigger>famnrendernode</tabTrigger>
 	<scope>source.js</scope>

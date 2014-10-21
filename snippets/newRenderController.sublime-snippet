@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+/**
+*  RenderController
+*/
+var elements = ['1', '2', '3', '4'];
+
+var $1 = new RenderController();
+
+var surfaces = [];
+var counter = 0;
+
+for (var i = 0; i < elements.length; i++) {
+    var surf = new Surface({
+        content: "Surface: " + elements[i],
+        size: [200, 200],
+        properties: {
+            backgroundColor: "hsl(" + (i * 360 / elements.length) + ", 100%, 50%)",
+            lineHeight: "200px",
+            textAlign: 'center'
+        }
+    });
+
+    surf.on('click', function() {
+        counter = counter == surfaces.length - 1 ? 0 : counter + 1;
+        $1.show(surfaces[counter]);
+    });
+
+    surfaces.push(surf);
+}
+
+$1.show(surfaces[counter);
+
+this.add($1);
+]]></content>
+	<tabTrigger>famnrendercontroller</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new RenderController</description>
+</snippet>

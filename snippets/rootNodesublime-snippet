@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  Create the root node with its modifier
+ */
+this.rootModifier = new StateModifier({
+    size: this.options.size,
+    align: this.options.align,
+    origin: this.options.origin
+});
+this.rootNode = this.add(this.rootModifier);
+
+/**
+ *  Create my page elements
+ */
+
+/**
+ *  Add the elements to the root node
+ */
+this.rootNode.add(new Surface());
+]]></content>
+	<tabTrigger>famrootnode</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new RootNode</description>
+</snippet>

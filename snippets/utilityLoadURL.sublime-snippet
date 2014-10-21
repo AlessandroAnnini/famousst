@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  LoadURL
+ *  Load a URL and return its contents in a callback
+ */
+
+function myCallback(text) {
+    console.log(text);
+}
+
+Utility.loadURL('http://${1:address}', myCallback(text));
+]]></content>
+	<tabTrigger>famuafter</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Utility loadURL</description>
+</snippet>

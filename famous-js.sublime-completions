@@ -17,6 +17,7 @@
 		{ "trigger": "transform", "contents": "Transform" },
 		{ "trigger": "view", "contents": "View" },
 		{ "trigger": "viewsequence", "contents": "ViewSequence" },
+		{ "trigger": "fader", "contents": "Fader" },
 
 		{ "trigger": "eventarbiter", "contents": "EventArbitrer" },
 		{ "trigger": "eventfilter", "contents": "EventFilter" },

@@ -1,9 +1,37 @@
 <snippet>
 	<content><![CDATA[
-var ${1:name} = new Flipper();
-${1:name}.setFront(new Surface());
-${1:name}.setBack(new Surface());
-// mainContext.add(${1:name});
+/**
+ *  Flipper
+ */
+// mainContext.setPerspective(500);
+
+var $1 = new Flipper();
+
+var frontSurface = new Surface({
+    size : [200, 200],
+    content : 'front',
+    properties : {
+        background : 'red',
+        lineHeight : '200px',
+        textAlign  : 'center'
+    }
+});
+
+var backSurface = new Surface({
+    size : [200, 200],
+    content : 'back',
+    properties : {
+        background : 'blue',
+        color : 'white',
+        lineHeight : '200px',
+        textAlign  : 'center'
+        }
+});
+
+$1.setFront(backSurface);
+$1.setBack(new Surface());
+
+this.add($1);
 ]]></content>
 	<tabTrigger>famnflipper</tabTrigger>
 	<scope>source.js</scope>

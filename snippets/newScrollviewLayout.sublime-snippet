@@ -1,32 +1,33 @@
 <snippet>
 	<content><![CDATA[
 /**
- *  Sequential Layout
+ *  Scrollview
  */
-var elements = ['1', '2', '3', '4'];
+var elements = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
-var $1 = new SequentialLayout({
-    direction: 0
-});
-
+var $1 = new Scrollview();
 var surfaces = [];
+
 $1.sequenceFrom(surfaces);
 
 for (var i = 0; i < elements.length; i++) {
     var surf = new Surface({
-        size: [undefined, 50],
-        content: elements[i],
+        content: "Surface: " + elements[i],
+        size: [undefined, 200],
         properties: {
             backgroundColor: "hsl(" + (i * 360 / elements.length) + ", 100%, 50%)",
+            lineHeight: "200px",
+            textAlign: "center"
         }
     });
 
-    surfaces.push(surf);
+    temp.pipe($1);
+    surfaces.push(temp);
 }
 
 this.add($1);
 ]]></content>
-	<tabTrigger>famnseqlay</tabTrigger>
+	<tabTrigger>famnscrollview</tabTrigger>
 	<scope>source.js</scope>
 	<description>Famo.us new SequentialLayout</description>
 </snippet>

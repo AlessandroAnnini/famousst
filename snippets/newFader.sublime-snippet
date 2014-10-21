@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name} = new Fader();
+${1:name}.hide();
+
+var surf = new Surface({
+    size : [200, 200],
+    content : 'back',
+    properties : {
+        background : 'blue',
+        color : 'white',
+        lineHeight : '200px',
+        textAlign  : 'center'
+    }
+});
+
+var surfMod = new StateModifier();
+
+this.add(surfMod).add(${1:name}).add(surf);
+
+// ${1:name}.show();
+]]></content>
+	<tabTrigger>famnfader</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us new Fader</description>
+</snippet>
