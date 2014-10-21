@@ -4,7 +4,7 @@
  *  Grid Layout
  */
 var ${1:name} = new GridLayout({
-  dimensions: [${2:width}, ${1:height}]
+  dimensions: [${2:width}, ${3:height}]
 });
 
 var surfaces = [];
