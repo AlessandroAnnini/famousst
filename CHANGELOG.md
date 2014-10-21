@@ -1,4 +1,14 @@
-### Update for famo.us 0.3 [part one] (HEAD, master)
+### bugfix (HEAD, master)
+>Tue, 21 Oct 2014 22:10:39 +0200
+
+>Author: Alessandro (sunrising@Alessandros-MBP.fritz.box)
+
+>Commiter: Alessandro (sunrising@Alessandros-MBP.fritz.box)
+
+
+
+
+### Update for famo.us 0.3 [part one] (origin/master)
 >Tue, 21 Oct 2014 22:00:00 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MBP.fritz.box)
@@ -24,7 +34,7 @@ FIX
 
 
 
-### Update (origin/master)
+### Update
 >Tue, 30 Sep 2014 17:11:23 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)

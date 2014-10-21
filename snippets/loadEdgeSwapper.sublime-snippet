@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var EdgeSwapper = require("famous/views/EdgeSwapper");
+var EdgeSwapper = require('famous/views/EdgeSwapper');
 ]]></content>
 	<tabTrigger>famdedgeswapper</tabTrigger>
 	<scope>source.js</scope>
