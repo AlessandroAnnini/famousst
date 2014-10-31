@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
 define(function(require, exports, module) {
-	var View = require('famous/core/View');
-	var Engine = require('famous/core/Engine');
+    var View = require('famous/core/View');
+    var Engine = require('famous/core/Engine');
     var Surface = require('famous/core/Surface');
     var Transform = require('famous/core/Transform');
     var RenderNode = require('famous/core/RenderNode');
-	var StateModifier = require('famous/modifiers/StateModifier');
+    var StateModifier = require('famous/modifiers/StateModifier');
 
     ${1:name}.prototype = Object.create(View.prototype);
     ${1:name}.prototype.constructor = ${1:name};
@@ -18,11 +18,10 @@ define(function(require, exports, module) {
     function ${1:name}(options) {
         View.apply(this, arguments);
 
-        this._node = new RenderNode();
-        this._node.add(new StateModifier()).add(new Surface());
 
-        // -- ADD TO RENDER TREE
-        this._add(this.nodeRoot);
+
+
+        //this.add(yourstuff);
     }
 
     module.exports = ${1:name};

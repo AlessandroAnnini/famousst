@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+var Easing = require('famous/transitions/Easing');
+]]></content>
+	<tabTrigger>famdeasing</tabTrigger>
+	<scope>source.js</scope>
+	<description>Famo.us load Easing</description>
+</snippet>

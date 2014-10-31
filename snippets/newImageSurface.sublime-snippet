@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1:name} = new ImageSurface({
+${1:this.imgSurf} = new ImageSurface({
     size: [true, true],
     content: '/*url*/'
 });

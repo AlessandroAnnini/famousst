@@ -3,16 +3,16 @@
 /**
  *  Header Footer Layout
  */
-var ${1:name} = new HeaderFooterLayout({
+${1:this.hfLayout} = new HeaderFooterLayout({
     headerSize: ${2:100},
     footerSize: ${3:50}
 });
 
-${1:name}.header.add();
-${1:name}.content.add();
-${1:name}.footer.add();
+${1:this.hfLayout}.header.add();
+${1:this.hfLayout}.content.add();
+${1:this.hfLayout}.footer.add();
 
-this.add(${1:name});
+this.add(${1:this.hfLayout});
 ]]></content>
 	<tabTrigger>famnhflay</tabTrigger>
 	<scope>source.js</scope>

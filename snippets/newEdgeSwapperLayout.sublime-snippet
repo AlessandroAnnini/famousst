@@ -3,38 +3,38 @@
 /**
  *  EdgeSwapper
  */
-var elements = ['1', '2', '3', '4'];
+this.elements = ['1', '2', '3', '4'];
 
-var ${1:name} = new EdgeSwapper();
+${1:this.edgeSwapper} = new EdgeSwapper();
 
-var surfaces = [];
-var counter = 0;
+this.surfaces = [];
+this.counter = 0;
 
-for(var i = 0; i < elements.length; i++) {
+for(var i = 0; i < this.elements.length; i++) {
     var surf = new Surface({
         size: [undefined, undefined],
-        content: elements[i],
+        content: this.elements[i],
         properties: {
             color: 'black',
             fontSize: '30px',
             textAlign: 'center',
-            backgroundColor: "hsl(" + (i * 360 / elements.length) + ", 100%, 50%)",
+            backgroundColor: "hsl(" + (i * 360 / this.elements.length) + ", 100%, 50%)",
             lineHeight: window.innerHeight + "px",
             textAlign: "center"
         }
     });
 
     surf.on('click', function() {
-        counter = counter == surfaces.length - 1 ? 0 : counter + 1;
-        ${1:name}.show(surfaces[counter]);
+        this.counter = this.counter == this.surfaces.length - 1 ? 0 : this.counter + 1;
+        ${1:this.edgeSwapper}.show(this.surfaces[this.counter]);
     });
 
-    surfaces.push(surf);
+    this.surfaces.push(surf);
 }
 
-this.add(${1:name}); 
+this.add(${1:this.edgeSwapper}); 
 
-$1.show(surfaces[counter]);
+${1:this.edgeSwapper}.show(this.surfaces[this.counter]);
 ]]></content>
 	<tabTrigger>famnedgeswapper</tabTrigger>
 	<scope>source.js</scope>

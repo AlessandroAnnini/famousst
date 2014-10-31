@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1:name} = new InputSurface({
+${1:this.inputSurf} = new InputSurface({
     size: [200, 100],
     placeholder: '',
     type: 'text' // or 'button'

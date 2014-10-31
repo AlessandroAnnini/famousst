@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1:name} = new Modifier({
+${1:this.mod} = new Modifier({
     // proportions: [.5, .25],
     align: [0, 0],
     origin: [0, 0],

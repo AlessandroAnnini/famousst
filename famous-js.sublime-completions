@@ -5,7 +5,7 @@
     [
     	// ========== snips ==========
 	    
-	    { "trigger": "context", "contents": "Context" },
+    { "trigger": "context", "contents": "Context" },
 		{ "trigger": "engine", "contents": "Engine" },
 		{ "trigger": "eventemitter", "contents": "EventEmitter" },
 		{ "trigger": "eventhandler", "contents": "EventHandler" },

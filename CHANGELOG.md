@@ -1,4 +1,25 @@
-### Bugfix (HEAD, master)
+### Update (HEAD, master)
+>Fri, 31 Oct 2014 17:37:55 +0100
+
+>Author: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+>Commiter: Alessandro (sunrising@Alessandros-MacBook-Pro.local)
+
+NEW FEATURES
+- famdeasing for Easing dependency
+
+CHANGES
+- all names are now this.name
+- views are now empty
+
+FIX
+- flipper
+- RenderNode
+- RootNode
+
+
+
+### Bugfix (origin/master)
 >Tue, 21 Oct 2014 22:27:47 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MBP.fritz.box)
@@ -8,7 +29,7 @@
 
 
 
-### bugfix (origin/master)
+### bugfix
 >Tue, 21 Oct 2014 22:10:39 +0200
 
 >Author: Alessandro (sunrising@Alessandros-MBP.fritz.box)

@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-var ${1:name} = new StateModifier({
-  align: [0, 0],
-  origin: [0, 0],
-  transform: Transform.translate(0, 0, 0)
+${1:this.stateMod} = new StateModifier({
+    align: [0, 0],
+    origin: [0, 0],
+    transform: Transform.translate(0, 0, 0)
 });
 ]]></content>
 	<tabTrigger>famnstatemodifier</tabTrigger>

@@ -1,0 +1,16 @@
+famous v3.0.1 changelog:
+
+NEW FEATURES
+- famdeasing for Easing dependency
+
+CHANGES
+- all names are now this.name
+- views are now empty
+
+FIX
+- flipper
+- RenderNode
+- RootNode
+
+
+by http://famousco.de/ - it.linkedin.com/in/alessandroannini/

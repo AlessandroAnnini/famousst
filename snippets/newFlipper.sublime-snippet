@@ -5,9 +5,9 @@
  */
 // mainContext.setPerspective(500);
 
-var $1 = new Flipper();
+${1:this.flipper} = new Flipper();
 
-var frontSurface = new Surface({
+this.frontSurface = new Surface({
     size : [200, 200],
     content : 'front',
     properties : {
@@ -17,7 +17,7 @@ var frontSurface = new Surface({
     }
 });
 
-var backSurface = new Surface({
+this.backSurface = new Surface({
     size : [200, 200],
     content : 'back',
     properties : {
@@ -25,13 +25,15 @@ var backSurface = new Surface({
         color : 'white',
         lineHeight : '200px',
         textAlign  : 'center'
-        }
+    }
 });
 
-$1.setFront(backSurface);
-$1.setBack(new Surface());
+${1:this.flipper}.setFront(this.frontSurface);
+${1:this.flipper}.setBack(this.backSurface);
 
-this.add($1);
+this.add(${1:this.flipper});
+
+// ${1:this.flipper}.flip(); to flip!
 ]]></content>
 	<tabTrigger>famnflipper</tabTrigger>
 	<scope>source.js</scope>

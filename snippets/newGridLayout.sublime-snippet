@@ -3,13 +3,13 @@
 /**
  *  Grid Layout
  */
-var ${1:name} = new GridLayout({
+${1:this.gridLayout} = new GridLayout({
   dimensions: [${2:width}, ${3:height}]
 });
 
-var surfaces = [];
+this.surfaces = [];
 
-${1:name}.sequenceFrom(surfaces);
+${1:this.gridLayout}.sequenceFrom(this.surfaces);
 
 for(var i = 0; i < 8; i++) {
     var surf = new Surface({
@@ -22,10 +22,10 @@ for(var i = 0; i < 8; i++) {
             textAlign: 'center'
         }
     });
-    surfaces.push(surf)
+    this.surfaces.push(surf)
 }
 
-this.add(${1:name});
+this.add(${1:this.gridLayout});
 ]]></content>
 	<tabTrigger>famngridlay</tabTrigger>
 	<scope>source.js</scope>

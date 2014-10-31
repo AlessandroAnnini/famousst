@@ -1,17 +1,26 @@
 <snippet>
 	<content><![CDATA[
-/**
- *  Create the render node and add elements
- */
-this.renderNode = new RenderNode();
-this.renderNode.add(new StateModifier()).add(new Surface());
+${1:this.fader} = new Fader();
+${1:this.fader}.hide();
 
-/**
- *  Add my node to the render tree
- */
-this.add(this.nodeRoot);
+this.surf = new Surface({
+    size : [200, 200],
+    content : 'back',
+    properties : {
+        background : 'blue',
+        color : 'white',
+        lineHeight : '200px',
+        textAlign  : 'center'
+    }
+});
+
+this.surfMod = new StateModifier();
+
+this.add(this.surfMod).add(${1:this.fader}).add(this.surf);
+
+// ${1:name}.show();
 ]]></content>
-	<tabTrigger>famnrendernode</tabTrigger>
+	<tabTrigger>famnfader</tabTrigger>
 	<scope>source.js</scope>
-	<description>Famo.us new RenderNode</description>
+	<description>Famo.us new Fader</description>
 </snippet>

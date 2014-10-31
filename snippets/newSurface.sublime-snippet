@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1:name} = new Surface({
+${1:this.surf} = new Surface({
     size: [undefined, undefined],
     content: '',
     classes: [],
