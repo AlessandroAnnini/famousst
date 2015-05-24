@@ -1,6 +1,9 @@
 # Famo.us package for Sublime Text
 =======================
 
+DEPRECATED
+==========
+
 **[famo.us](http://famo.us/)** - official website
 
 **[famousco.de](http://famousco.de/)** - first unofficial Famo.us resource website
